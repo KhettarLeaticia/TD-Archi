@@ -4,7 +4,6 @@ namespace UniversiteDomainUnitTests;
 
 using System.Linq.Expressions;
 using Moq;
-using Université_Domain.DataAdapters;
 using Université_Domain.Entities;
 using Université_Domain.UseCases.UeUseCase.Create;
 

@@ -1,9 +1,7 @@
 using System.Linq.Expressions;
 using Moq;
-using Université_Domain.DataAdapters;
 using Université_Domain.DataAdapters.DataAdaptersFactory;
 using Université_Domain.Entities;
-using Université_Domain.UseCases.EtudiantUseCases;
 using Université_Domain.UseCases.EtudiantUseCases.Create;
 
 namespace UniversiteDomainUnitTests;

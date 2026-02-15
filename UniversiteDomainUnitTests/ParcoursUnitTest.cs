@@ -172,8 +172,6 @@ using Moq;
 using Université_Domain.DataAdapters;
 using Université_Domain.DataAdapters.DataAdaptersFactory;
 using Université_Domain.Entities;
-using Université_Domain.UseCases.EtudiantUseCases;
-using Université_Domain.UseCases.ParcoursUseCases;
 using Université_Domain.UseCases.ParcoursUseCases.Create;
 using Université_Domain.UseCases.ParcoursUseCases.EtudiantDansParcours;
 using Université_Domain.UseCases.ParcoursUseCases.UeDansParcours;
@@ -249,7 +247,7 @@ public class ParcoursUnitTest
         
         List<Parcours> parcoursFinaux = new List<Parcours>();
         Parcours parcoursFinal = parcours;
-        parcoursFinal.Inscrits.Add(etudiant);
+        parcoursFinal.Inscrits?.Add(etudiant);
         parcoursFinaux.Add(parcours);
         
         mockParcours
